@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Minimal Desk Lamp",
+    "price": 89.00,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=400&h=400&fit=crop",
+    "category": "Lighting"
+  },
+  {
+    "id": 2,
+    "name": "Leather Notebook",
+    "price": 34.00,
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400&h=400&fit=crop",
+    "category": "Stationery"
+  },
+  {
+    "id": 3,
+    "name": "Ceramic Mug Set",
+    "price": 42.00,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop",
+    "category": "Kitchen"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Charger",
+    "price": 55.00,
+    "image": "https://images.unsplash.com/photo-1591289009723-aef0a1a8a211?w=400&h=400&fit=crop",
+    "category": "Tech"
+  },
+  {
+    "id": 5,
+    "name": "Oak Wall Shelf",
+    "price": 120.00,
+    "image": "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=400&h=400&fit=crop",
+    "category": "Furniture"
+  },
+  {
+    "id": 6,
+    "name": "Linen Throw Pillow",
+    "price": 38.00,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=400&h=400&fit=crop",
+    "category": "Home"
+  },
+  {
+    "id": 7,
+    "name": "Brass Pen Holder",
+    "price": 28.00,
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop",
+    "category": "Stationery"
+  },
+  {
+    "id": 8,
+    "name": "Concrete Planter",
+    "price": 45.00,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop",
+    "category": "Home"
+  },
+  {
+    "id": 9,
+    "name": "Smart Speaker",
+    "price": 149.00,
+    "image": "https://images.unsplash.com/photo-1543512214-318228f29547?w=400&h=400&fit=crop",
+    "category": "Tech"
+  },
+  {
+    "id": 10,
+    "name": "Walnut Coasters",
+    "price": 24.00,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop",
+    "category": "Kitchen"
+  },
+  {
+    "id": 11,
+    "name": "Canvas Tote Bag",
+    "price": 32.00,
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400&h=400&fit=crop",
+    "category": "Accessories"
+  },
+  {
+    "id": 12,
+    "name": "Scented Candle",
+    "price": 26.00,
+    "image": "https://images.unsplash.com/photo-1602607450896-269e6c0a1850?w=400&h=400&fit=crop",
+    "category": "Home"
+  }
+]
