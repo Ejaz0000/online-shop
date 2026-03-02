@@ -20,17 +20,54 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Project Setup
 
-To learn more about Next.js, take a look at the following resources:
+This project is built using **Next.js**, a React framework for building modern web applications. Below are the details of the project setup:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pages Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is organized into the following pages:
+- **Home Page**: Located at `src/app/page.js`, this is the main landing page of the application.
+- **Admin Page**: Located at `src/app/admin/page.js`, this page is designed for administrative tasks.
+- **Register Page**: Located at `src/app/register/page.js`, this page handles user registration.
+- **Shop Page**: Located at `src/app/shop/page.js`, this page displays the products available for purchase.
 
-## Deploy on Vercel
+### Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project includes reusable components organized into folders:
+- **Dashboard Components**: Includes `AdminNavbar`, `DataTable`, `Sidebar`, and `StatCards`.
+- **Registration Components**: Includes `OtpModal` and `StepIndicator`.
+- **Shop Components**: Includes `Hero`, `ProductCard`, and `ShopNavbar`.
+- **UI Components**: Includes `ThemeProvider` for managing themes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### State Management
+
+State is managed using **Redux Toolkit**. The following slices are used:
+- `cartSlice.js`: Manages the shopping cart state.
+- `registrationSlice.js`: Handles user registration state.
+- `sidebarSlice.js`: Manages the sidebar state.
+- `themeSlice.js`: Handles theme-related state.
+
+### Packages Used
+
+The project uses the following key packages:
+- **Next.js**: Framework for building the application.
+- **React**: Library for building user interfaces.
+- **Redux Toolkit**: For state management.
+- **Framer Motion**: For animations.
+- **Tailwind CSS**: For styling.
+- **PostCSS**: For processing CSS.
+- **Next/Image**: For optimized image handling.
+
+### Running the Project
+
+To run the project locally, use the following commands:
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
+
+
